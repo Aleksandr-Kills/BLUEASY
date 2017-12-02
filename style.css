@@ -1,0 +1,63 @@
+/* header */
+#header {
+    background: #515f68 url("img/bgheader.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+#header .nav {
+    background: url("img/bgnav.png") no-repeat center;
+    background-size: cover;
+    height: 150px;
+}
+#header .nav p {
+    font-family: "Segoe UI", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 53px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+#header .nav p span {
+    color: #4bcaff;
+    font-weight: bold;
+}
+#header .nav ul {
+    padding-top: 67px;
+}
+#header .nav li {
+    font-family: "Segoe UI", sans-serif;
+    display: inline;
+    padding-left: 9px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    position:relative;
+    left: 40px
+}
+#header .nav li:first-child {
+    padding-left: 0;
+}
+#header .nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 18px;
+}
+#header .nav a:hover {
+    border: 2px solid #4bcaff;
+    color: #4bcaff;
+}
+#header .baner p {
+    padding-top: 250px;
+    font-family: "Segoe UI Light", sans-serif;
+    font-weight: lighter;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    background: url("img/bgbanner.png") no-repeat;
+    background-position: 50% 106%;
+    width:100%;
+
+}
