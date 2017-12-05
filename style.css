@@ -1,6 +1,9 @@
+body {
+    background-color: #515f68;
+}
 /* header */
 #header {
-    background: #515f68 url("img/bgheader.jpg") no-repeat center;
+    background: url("img/bgheader.jpg") no-repeat center;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -49,15 +52,26 @@
     border: 2px solid #4bcaff;
     color: #4bcaff;
 }
-#header .baner p {
-    padding-top: 250px;
+#header .baner .one-p {
     font-family: "Segoe UI Light", sans-serif;
-    font-weight: lighter;
     font-size: 42px;
     color: #fff;
     text-align: center;
-    background: url("img/bgbanner.png") no-repeat;
-    background-position: 50% 106%;
-    width:100%;
-
+    background-color: rgba(53, 62, 70, 0.8);
+    margin-left: 214px;
+    max-width: 710px;
 }
+#header .baner .two-p {
+    font-family: "Segoe UI Light", sans-serif;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(53, 62, 70, 0.8);
+    margin: 12px 0 0 75px;
+    max-width: 990px;
+}
+#header .baner .pharaghraph {
+    margin-top: 250px;
+}
+/* content */
+/* part-one */

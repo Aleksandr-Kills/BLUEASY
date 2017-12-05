@@ -9,6 +9,17 @@
     #header .nav a {
     padding: 8px 11px;
 }
+    #header .baner .one-p {
+        font-size: 40px;
+        margin-left: 133px;
+        max-width: 675px;
+    }
+    #header .baner .two-p {
+        font-size: 40px;
+        margin: 12px 0 0 0;
+        max-width: none;
+
+    }
 }
 
 /* Medium Devices, Desktops */
