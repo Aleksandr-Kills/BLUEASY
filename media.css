@@ -2,11 +2,11 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
-    #header .nav li {
+    #header .nav .one li {
         padding-left: 5px;
         left: 23px;
     }
-    #header .nav a {
+    #header .nav .one a {
     padding: 8px 11px;
 }
     #header .baner .one-p {
@@ -18,13 +18,17 @@
         font-size: 40px;
         margin: 12px 0 0 0;
         max-width: none;
-
     }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
-
+    #header .nav .one {
+        display: none;
+    }
+    #header .nav .burger-menu .navigation {
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -68,7 +72,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+#header .nav .burger-menu {
+    display: none;
+}
 }
 
 /* Large Devices, Wide Screens */

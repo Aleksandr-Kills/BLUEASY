@@ -27,10 +27,10 @@ body {
     color: #4bcaff;
     font-weight: bold;
 }
-#header .nav ul {
+#header .nav .one ul {
     padding-top: 67px;
 }
-#header .nav li {
+#header .nav .one li {
     font-family: "Segoe UI", sans-serif;
     display: inline;
     padding-left: 9px;
@@ -40,15 +40,15 @@ body {
     position:relative;
     left: 40px
 }
-#header .nav li:first-child {
+#header .nav .one li:first-child {
     padding-left: 0;
 }
-#header .nav a {
+#header .nav .one a {
     text-decoration: none;
     color: #fff;
     padding: 8px 18px;
 }
-#header .nav a:hover {
+#header .nav .one a:hover {
     border: 2px solid #4bcaff;
     color: #4bcaff;
 }
@@ -73,5 +73,28 @@ body {
 #header .baner .pharaghraph {
     margin-top: 250px;
 }
+/* burger-menu */
+#header .nav .burger-menu .main-item {
+    display: none;
+}
+#header .nav .burger-menu .main-item {
+    display: block;
+}
+#header .nav .burger-menu .navigation li {
+    display: block;
+}
+#header .nav .burger-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+#header .nav .burger-menu .main-item {
+    font-size: 48px;
+    text-align:right;
+    margin-top:-50px;
+}
+#header .nav .burger-menu .navigation {
+
+}
+
 /* content */
 /* part-one */
