@@ -83,6 +83,9 @@ body {
 #header .nav .burger-menu .navigation li {
     display: block;
 }
+#header .nav .burger-menu {
+    padding:0
+}
 #header .nav .burger-menu a {
     text-decoration: none;
     color: #fff;
@@ -91,10 +94,25 @@ body {
     font-size: 48px;
     text-align:right;
     margin-top:-50px;
+    padding-right:12px;
 }
 #header .nav .burger-menu .navigation {
-
+    margin-top: 37px;
+    text-align:center;
+    background-color: rgba(53, 62, 70, 0.3);
 }
-
+#header .nav .burger-menu .navigation li {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+#header .nav .burger-menu .navigation li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#header .nav .burger-menu .navigation li a:hover {
+    color:#4bcaff;
+    font-weight: bold;
+}
 /* content */
 /* part-one */
