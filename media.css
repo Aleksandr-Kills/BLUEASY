@@ -30,18 +30,48 @@
         display: none;
     }
     #header .nav .container {
-        margin:0
+        margin:0;
+    }
+    #header .baner .pharaghraph {
+        margin-top: 150px;
+    }
+    #header .baner .one-p {
+        font-size: 31px;
+        margin-left:100px;
+        max-width: 520px;
+    }
+    #header .baner .two-p {
+        font-size: 31px;
+        margin: 12px 0 0 0;
+        max-width: none;
     }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
+    #header .baner .one-p {
+        font-size: 30px;
+        margin:0 auto;
+        max-width: 500px;
+    }
+    #header .baner .two-p {
+        font-size: 30px;
+        margin: 12px auto;
+        max-width: 700px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    #header .baner .one-p {
+        font-size: 28px;
+        max-width: 350px;
+    }
+    #header .baner .two-p {
+        font-size: 28px;
+        margin: 12px auto;
 
+    }
 }
 
 /* Custom, iPhone Retina */
