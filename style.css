@@ -190,3 +190,13 @@ body {
     border: 2px solid #4bcaff;
     color: #4bcaff;
 }
+#content .part-two .catalogue img {
+    padding:14px;
+}
+#content .part-two .catalogue {
+    margin-top:70px;
+}
+#content .part-two .catalogue a:hover {
+    cursor: url("img/cursor.png"), crosshair;
+    opacity:0.9;
+}
