@@ -154,6 +154,39 @@ body {
     padding-top: 16.5px;
 }
 /* part-two */
-
-
-
+#content .part-two {
+    min-height: 845px;
+    background-color: #fff;
+}
+#content .part-two h1 {
+    padding-top: 68px;
+    margin: 0;
+    font: 30px "Segoe UI Light", sans-serif;
+    color: #515f67;
+}
+#content .part-two h1 span {
+    border-bottom: 2px solid #515f67;
+}
+#content .part-two nav {
+    padding-top: 89px;
+}
+#content .part-two nav li {
+    display: inline;
+    padding-left: 9px;
+    position:relative;
+    left: 40px;
+    text-align: center;
+    font: bold 14px "Segoe UI", sans-serif;
+}
+#header .nav .one li:first-child {
+    padding-left: 0;
+}
+#content .part-two nav a {
+    text-decoration: none;
+    color: #515f67;
+    padding: 8px 18px;
+}
+#content .part-two nav a:hover {
+    border: 2px solid #4bcaff;
+    color: #4bcaff;
+}
