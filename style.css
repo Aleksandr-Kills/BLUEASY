@@ -200,3 +200,42 @@ body {
     cursor: url("img/cursor.png"), crosshair;
     opacity:0.9;
 }
+/* part-three */
+#content .part-three {
+    min-height: 472px;
+    background-color: #515f67;
+}
+#content .part-three .row {
+    padding-top: 79px;
+}
+#content .part-three h1,
+#content .part-three p {
+    color: #fff;
+}
+#content .part-three h1 {
+    margin: 0;
+    position:relative;
+    bottom:11px;
+    font: 30px "Segoe UI Light", sans-serif;
+}
+#content .part-three h1 span {
+    border-bottom: 2px solid #fff;
+}
+#content .part-three p {
+    padding: 29px 81px 0 0;
+    font: 14px "Segoe UI", sans-serif;
+}
+#content .part-three h2 {
+    padding-top: 51px;
+    font: bold 14px "Segoe UI", sans-serif;
+}
+#content .part-three a {
+    padding: 12px 40px;
+    border: 2px solid #353f46;
+    text-decoration: none;
+    color: #353f46;
+}
+#content .part-three a:hover {
+    color: #337ab7;
+    border: 2px solid #337ab7;
+}
