@@ -239,3 +239,41 @@ body {
     color: #337ab7;
     border: 2px solid #337ab7;
 }
+/* part-four */
+#content .part-four {
+    min-height: 305px;
+    background-color: #4bcaff;
+}
+#content .part-four .row {
+    padding-top: 70px;
+}
+#content .part-four h1,
+#content .part-four p {
+    position:relative;
+    left:15px;
+    color:#fff;
+}
+#content .part-four h1 {
+    margin: 0;
+    font: 30px "Segoe UI Light" , sans-serif;
+}
+#content .part-four h1 span {
+    border-bottom: 2px solid #fff;
+}
+#content .part-four p {
+    padding-top: 36px;
+    font: 28px "Segoe UI Light", sans-serif;
+}
+#content .part-four p .bold {
+    font-family: "Segoe UI Semibold", sans-serif;
+}
+#content .part-four br {
+    line-height: 50px;
+}
+#content .part-four img {
+    padding-left: 40px;
+    min-width:28px;
+}
+#content .part-four .col-sm-11 {
+    padding: 0 0;
+}

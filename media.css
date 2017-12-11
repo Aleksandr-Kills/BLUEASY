@@ -29,6 +29,12 @@
     #content .part-three p {
         padding-right: 100px;
     }
+    #content .part-four p {
+        font-size: 23px;
+    }
+    #content .part-four img {
+        padding-left: 23px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -110,6 +116,12 @@
     #content .part-three p {
         padding-right: 3px;
     }
+    #content .part-four p {
+        font-size: 18px;
+    }
+    #content .part-four img {
+        padding-left: 5px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -161,7 +173,7 @@
         border-bottom:none;
     }
     #content .part-three h1 {
-        max-width:310px;
+        max-width:308px;
         margin:0 auto;
         border-bottom:2px solid #fff;
     }
@@ -171,6 +183,34 @@
     }
     #content .part-three img {
         padding:45px 0 27px 0;
+    }
+    #content .part-four img {
+        padding: 30px 0 0 0;
+    }
+    #content .part-four h1,
+    #content .part-four p {
+        left:0;
+    }
+    #content .part-four .col-sm-11 {
+        padding: 0 16px;
+    }
+    #content .part-four h1 span {
+        border:none;
+    }
+    #content .part-four h1 {
+        max-width:117px;
+        margin:0 auto;
+        border-bottom: 2px solid #fff;
+    }
+    #content .part-four .row {
+        padding-top: 50px;
+        text-align: center;
+    }
+    #content .part-four br {
+        line-height: 30px;
+    }
+    #content .part-four p {
+        padding-top:25px;
     }
 }
 
