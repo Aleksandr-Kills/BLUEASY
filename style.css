@@ -277,3 +277,52 @@ body {
 #content .part-four .col-sm-11 {
     padding: 0 0;
 }
+/* part-five */
+#content .part-five {
+    min-height: 505px;
+    background-size: cover;
+    background: url("img/bg_footer.jpg") center no-repeat;
+}
+#content .part-five h1,
+#content .part-five p {
+    color:#fff;
+}
+#content .part-five h1 {
+    padding-top: 89px;
+    margin: 0;
+    font: 30px "Segoe UI Light", sans-serif;
+}
+#content .part-five h1 span {
+    border-bottom: 2px solid #fff;
+}
+#content .part-five p {
+    font: 14px "Segoe UI", sans-serif;
+}
+#content .part-five .p_1 {
+    padding-top: 40px;
+}
+#content .part-five .p_3 {
+    padding-top: 169px;
+}
+#content .part-five .p_2 {
+    padding: 29px 2px 0 0;
+}
+#content .part-five .images {
+    padding-top: 33px;
+}
+#content .part-five .img {
+    padding-right: 16px;
+    display: inline;
+}
+#content .part-five .one:hover {
+    background-color: #4bcaff;
+}
+#content .part-five .two:hover {
+    background-color: #B22222;
+}
+#content .part-five .three:hover {
+    background-color: #FF8C00;
+}
+#content .part-five .four:hover {
+    background-color: #A0522D;
+}
