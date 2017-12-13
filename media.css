@@ -38,6 +38,12 @@
     #content .part-five .p_2 {
         padding-top: 8px;
     }
+    #content .part-six .p_1 {
+        font-size: 23px;
+    }
+    #content .part-six img {
+        padding-left: 23px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -125,6 +131,16 @@
     #content .part-four img {
         padding-left: 5px;
     }
+    #content .part-four br {
+        line-height: 35px;
+    }
+    #content .part-six .p_1 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    #content .part-six img {
+        padding-left: 5px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -209,9 +225,6 @@
         padding-top: 50px;
         text-align: center;
     }
-    #content .part-four br {
-        line-height: 30px;
-    }
     #content .part-four p {
         padding-top:25px;
     }
@@ -239,6 +252,35 @@
     #content .part-five .p_2 {
         padding-top: 15px;
     }
+    #content .part-six .col-sm-11 {
+        padding: 0 16px;
+    }
+    #content .part-six .p_1 {
+        padding-top:25px;
+    }
+    #content .part-six .row {
+        padding-top: 50px;
+        text-align: center;
+    }
+    #content .part-six h1 {
+        max-width:192px;
+        margin:0 auto;
+        border-bottom: 2px solid #515f67;
+    }
+    #content .part-six h1 span {
+        border: none;
+    }
+    #content .part-six h1,
+    #content .part-six .p_1,
+    #content .part-six .p_2 {
+        left:0;
+    }
+    #content .part-six img {
+        display: none;
+    }
+    #content .part-six .p_2 {
+        padding-top: 30px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -261,7 +303,7 @@
         font-size: 29px;
     }
     #content .part-five .p_3 {
-        padding-top: 30px;
+        padding-top: 20px;
     }
     #content .part-five .img {
         padding-right: 5px;
@@ -271,6 +313,9 @@
     }
     #content .part-five .p_2 {
         padding-top: 10px;
+    }
+    #content .part-six .row {
+        padding-top: 50px;
     }
 }
 
