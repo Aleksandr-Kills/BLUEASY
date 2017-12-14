@@ -124,9 +124,17 @@
     }
     #content .part-two .catalogue {
         margin-top:25px;
+        text-align: center;
     }
     #content .part-two .row_2 img:last-child {
         padding-bottom: 27px;
+    }
+    #content .part-two .row_2,
+    #content .part-two .row_1 {
+        margin-left:75px;
+    }
+    #content .part-two .col-xs-6.col-md-3 {
+        max-width:300px;
     }
     #content .part-three .row {
         padding-top: 55px;
@@ -205,6 +213,14 @@
     }
     #content .part-two .nav-three h1 span {
         border-bottom:none;
+    }
+    #content .part-two .catalogue .container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    #content .part-two .row_2,
+    #content .part-two .row_1 {
+        margin-left: 0;
     }
     #content .part-three .row {
         padding-top: 27px;
@@ -383,6 +399,10 @@
     #content .part-seven label {
         font:  14px "Segoe UI", sans-serif;
     }
+    #content .part-two .catalogue .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -413,7 +433,24 @@
     }
 }
 
-/*------ Mobile First Method ------*/
+@media only screen and (min-width : 481px) and (max-width: 699px) {
+    #content .part-two .catalogue .col-xs-6.col-md-3 {
+        max-width:none;
+    }
+    #content .part-two .catalogue .container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    #content .part-two .catalogue .col-xs-6.col-md-3 {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+    /*------ Mobile First Method ------*/
 /* Custom, iPhone Retina */
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
