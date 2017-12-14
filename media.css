@@ -44,6 +44,15 @@
     #content .part-six img {
         padding-left: 23px;
     }
+    #content .part-seven input {
+        width: 400px;
+    }
+    #content .part-seven textarea {
+        width: 940px;
+    }
+    #content .part-seven button {
+        width: 300px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -140,6 +149,18 @@
     }
     #content .part-six img {
         padding-left: 5px;
+    }
+    #content .part-seven input {
+        width: 320px;
+    }
+    #content .part-seven textarea {
+        width: 719px;
+    }
+    #content .part-seven button {
+        width: 250px;
+    }
+    #content .part-seven .p_2 {
+         padding-top: 10px;
     }
 }
 
@@ -268,8 +289,8 @@
         border-bottom: 2px solid #515f67;
     }
     #content .part-six h1 span {
-        border: none;
-    }
+         border: none;
+     }
     #content .part-six h1,
     #content .part-six .p_1,
     #content .part-six .p_2 {
@@ -280,6 +301,42 @@
     }
     #content .part-six .p_2 {
         padding-top: 30px;
+    }
+    #content .part-seven .form,
+    #content .part-seven h1 {
+        text-align: center;
+    }
+    #content .part-seven .p_1 {
+        padding-top: 70px;
+    }
+    #content .part-seven h1 {
+        padding-top: 15px;
+        max-width: 131px;
+        margin:0 auto;
+        border-bottom: 2px solid #fff;
+    }
+    #content .part-seven h1 span {
+        border: none;
+    }
+    #content .part-seven input {
+        width: 290px;
+        height: 50px;
+    }
+    #content .part-seven textarea {
+        width: 290px;
+        height: 100px;
+    }
+    #content .part-seven button {
+        width: 150px;
+        height: 45px;
+        margin-top: 25px;
+    }
+    #content .part-seven .l_3,
+    #content .part-seven .l_2 {
+        padding-top: 30px;
+    }
+    #content .part-seven .p_2 {
+        padding-top: 35px;
     }
 }
 
@@ -317,6 +374,15 @@
     #content .part-six .row {
         padding-top: 50px;
     }
+    #content .part-seven .p_1 {
+        padding-top: 45px;
+    }
+    #content .part-seven .p_2 {
+        padding-top: 30px;
+    }
+    #content .part-seven label {
+        font:  14px "Segoe UI", sans-serif;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -330,6 +396,13 @@
     }
     #content .part-five .p_3 {
         padding-top: 20px;
+    }
+    #content .part-seven .l_3,
+    #content .part-seven .l_2 {
+        padding-top: 20px;
+    }
+    #content .part-seven .p_2 {
+        padding-top: 15px;
     }
 }
 
