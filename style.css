@@ -449,3 +449,36 @@ body {
     font: 20px "Segoe UI", sans-serif;
     color:#fff;
 }
+/* footer */
+#footer {
+    min-height: 170px;
+    background-color: #353f47;
+}
+#footer .row {
+    padding-top: 70px;
+}
+#footer li {
+    padding: 0 13px 0 9px;
+    border-right: 2px solid #515f67;
+    display: inline-block;
+    font: 12px "Segoe UI Semibold", sans-serif;
+}
+#footer li:last-child {
+    padding-right: 0;
+    border: none;
+}
+#footer li:first-child {
+    padding-left:0;
+}
+#footer p {
+    font: 12px "Segoe UI Semibold", sans-serif;
+    color: #515f67;
+    float: right;
+}
+#footer a {
+    text-decoration: none;
+    color: #515f67;;
+}
+#footer a:hover {
+    color: #fff;
+}
