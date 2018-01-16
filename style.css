@@ -482,3 +482,7 @@ body {
 #footer a:hover {
     color: #fff;
 }
+/* fixed */
+.cbalink {
+    display:none;
+}
