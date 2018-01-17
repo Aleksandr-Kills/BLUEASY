@@ -4,7 +4,7 @@
 @media only screen and (max-width : 1199px) {
     #header .nav .one li {
         padding-left: 5px;
-        left: 23px;
+        left: 11px;
     }
     #header .nav .one a {
     padding: 8px 11px;
@@ -21,7 +21,7 @@
     }
     #content .part-two .nav-three li {
         padding-left: 5px;
-        left: 23px;
+        left: 11px;
     }
     #content .part-two .nav-three a {
         padding: 8px 11px;
@@ -78,6 +78,16 @@
     }
     #content .part-one .img1 {
         padding-top: 25px;
+    }
+    /* hack for moz */
+    @-moz-document url-prefix() {
+        #content .part-one .img1 {
+            padding-top: 24px;
+        }
+    }
+    /* hack for safari*/
+    body:first-of-type #content .part-one .img1 {
+        padding-top: 24px;
     }
     #content .part-one h1 {
         padding-top: 15px;
