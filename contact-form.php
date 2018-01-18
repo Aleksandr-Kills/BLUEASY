@@ -22,7 +22,7 @@ if (empty($antispam))
         header('Refresh: 5; URL=http://aleksandr-t-portfolio.zzz.com.ua/');
         echo '<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-    <body>Письмо отправлено, через 5 секунд вы вернетесь на страницу XXX</body>';}
+    <body>Письмо отправлено, через 5 секунд вы вернетесь на главную страницу</body>';}
     else {
         header('Refresh: 5; URL=http://aleksandr-t-portfolio.zzz.com.ua/');
         echo '<head>
