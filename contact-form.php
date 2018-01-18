@@ -19,12 +19,12 @@ if (empty($antispam))
 {
     $from  = "From: $name <$email> \r\n Reply-To: $email \r\n";
     if (mail($address, $sub, $mes, $from)) {
-        header('Refresh: 5; URL=http://');
+        header('Refresh: 5; URL=http://aleksandr-t-portfolio.zzz.com.ua/');
         echo '<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
     <body>Письмо отправлено, через 5 секунд вы вернетесь на страницу XXX</body>';}
     else {
-        header('Refresh: 5; URL=http://biznessystem.ru');
+        header('Refresh: 5; URL=http://aleksandr-t-portfolio.zzz.com.ua/');
         echo '<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
     <body>Письмо не отправлено, через 5 секунд вы вернетесь на страницу YYY</body>';}
